@@ -20,9 +20,11 @@
   },
   "homepage": "https://github.com/ljh95/tomarrow-house-2#readme",
   "dependencies": {
+    "eslint": "^8.1.0",
     "node-sass": "^6.0.1"
   },
   "devDependencies": {
+    "eslint-plugin-import": "^2.25.2",
     "sass": "^1.43.2",
     "stylelint": "^13.13.1",
     "stylelint-config-recess-order": "^2.5.0",
