@@ -1,7 +1,20 @@
-@import './base/fonts';
-@import './base/nomalize';
-@import './base/reset';
+@import './constants/colors';
 
-* {
-  font-family: 'Noto Sans KR', sans-serif;
+// @import './base/fonts';
+// @import './base/nomalize';
+// @import './base/reset';
+
+$hongsi: 1;
+
+p {
+  line-height: $hongsi;
+}
+
+a {
+  $hongsi: 2;
+  line-height: $hongsi;
+}
+
+span {
+  line-height: $hongsi;
 }
