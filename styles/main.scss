@@ -1,21 +1,8 @@
 @import './constants/colors';
 @import './constants/typography';
 
-// @import './base/fonts';
-// @import './base/nomalize';
-// @import './base/reset';
+@import './layouts/grids';
 
-$hongsi: 1;
-
-p {
-  line-height: $hongsi;
-}
-
-a {
-  $hongsi: 2;
-  line-height: $hongsi;
-}
-
-span {
-  line-height: $hongsi;
-}
+@import './base/fonts';
+@import './base/nomalize';
+@import './base/reset';
