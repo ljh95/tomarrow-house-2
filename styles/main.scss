@@ -1,10 +1,6 @@
 @import './base/fonts';
-
-p {
-  display: inline;
-  color: #0f6;
-  text-emphasis: none;
-}
+@import './base/nomalize';
+@import './base/reset';
 
 * {
   font-family: 'Noto Sans KR', sans-serif;
